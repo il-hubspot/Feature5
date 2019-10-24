@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .content-4-v2 .features:last-child > [class*="col-sm-"], .content-4-v2 .features.last > [class*="col-sm-"] {
+        padding-bottom: 30px;
+    }
+    
+    .content-4-v2 .features > div:nth-of-type(3n + 1) {
+        clear: left;
+    }
+}
