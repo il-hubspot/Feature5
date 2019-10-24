@@ -1,9 +1,8 @@
-title: Code Gallery Sample Entry
-description: |
+title: Feature 1 Module
+description: | This module allows the showcase of text, images. Featuring multiple additional options.
   Code
-type: module
-categories: Menus and navigation, Galleries, Buttons
-demo_url: https://example.com/demo
-video_url: https://example.com/video
+categories: Feature, Images, Buttons
+demo_url: w.inboundlabs.co/feature-1-and-feature-2-demo
+video_url: 
 hubspot_url: https://marketplace.hubspot.com/path/to/listing
 
