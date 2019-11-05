@@ -1,19 +1,37 @@
 {# Please do NOT modify this module/file because your changes may be overwritten by future installation from BRiX Editor. To customize this, please clone this module/file and work from there. #}
 
 {{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-content/css/ui-kit-styles.css") }}      
-<!-- content-4 -->
-<section class="content-4 content-4-v2" style="background-color: {{ module.background_color.color }};">
-    <div class="container">
-        {{ module.heading }}
-        <div class="row features">
-            {% for feature in module.features %}
-            <div class="col-sm-4">
-                {% if feature.feature_image.src %}
-            	<img src="{{ feature.feature_image.src }}" alt="{{ feature.feature_image.alt }}" width="{{ feature.feature_image.width }}" height="{{ feature.feature_image.height }}">
-                {% endif %}
-                {{ feature.feature_text }}
+<!-- content-7 -->
+<section class="content-7 v-center">
+    <div>
+        <div class="container">
+            {{ module.header }}
+            <div class="row v-center">
+                <div class="col-sm-3">
+                    <div>
+                        {{ module.left_text }}
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-sm-offset-1">
+                        <div class="screen-wrapper">
+                            <div class="screen">
+                                {% if module.image_popup.src %}
+                                <img src="{{ module.image_popup.src }}" alt="{{ module.image_popup.alt }}" width="{{ module.image_popup.width }}" height="{{ module.image_popup.height }}">
+                                {% endif %}
+                                {% if module.image.src %}
+                                <img src="{{ module.image.src }}" alt="{{ module.image.alt }}" width="{{ module.image.width }}" height="{{ module.image.height }}">
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="col-sm-offset-2">
+                        {{ module.righ_text }}
+                    </div>
+                </div>
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>
