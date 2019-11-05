@@ -1,13 +1,13 @@
 ![HubSpot](https://cdn2.hubspot.net/hubfs/327485/HubSpot%20Wordmark%20-%20Full%20Color.png "HubSpot")
-## Feature 2
+## Feature 5
 
-This Feature module lets you display a text banner while showcasing an image, allowing to add customized colors to background and text.  This Content module has text control, link control, images, and color options.
+This Feature module lets you display a product showcase focusing primarily in a title and one image. Surrounded by customizable text and fields.
 
-### Feature 2 module demo can be visited here:
+### Feature 5 module demo can be visited here:
 
-w.inboundlabs.co/feature-1-and-feature-2-demo
+https://w.inboundlabs.co/demofeature5feature6
 
-### Feature 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
+### Feature 5 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
